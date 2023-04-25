@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseNewLutemon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CFF5FA"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/lutemons"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:backgroundTint="#C1B0DD"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="Valitse tyyppi:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/btnMossmon"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:text="Mossmon" />
+
+        <CheckBox
+            android:id="@+id/btnOranmon"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:text="Oranmon" />
+
+        <CheckBox
+            android:id="@+id/btnRedimon"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:text="Redimon" />
+
+        <CheckBox
+            android:id="@+id/btnBlumon"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:text="Blumon" />
+
+        <EditText
+            android:id="@+id/nameBox"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Anna nimi" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luo Lutemonisi" />
+    </LinearLayout>
+
+</FrameLayout>
